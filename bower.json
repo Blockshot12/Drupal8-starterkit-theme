@@ -1,0 +1,26 @@
+{
+  "name": "starterkit",
+  "description": "<h1>Drupal 8 Theme Starterkit</h1>",
+  "main": "gulpfile.babel.js",
+  "authors": [
+    "Francois van Leersum"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "drupal8",
+    "theme",
+    "gulp",
+    "browsersync"
+  ],
+  "homepage": "https://github.com/Blockshot12/Drupal8-theme-starterkit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "compass-sass-mixins": "*"
+  }
+}

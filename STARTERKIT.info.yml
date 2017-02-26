@@ -1,0 +1,27 @@
+name: STARTERKIT
+type: theme
+description: 'This theme is a starterkit for a Drupal 8 theme.'
+package: STARTERKIT
+core: 8.x
+
+# TODO: Replace STARTERKIT with your theme name.
+libraries:
+  - 'STARTERKIT/font-google-css'
+  - 'STARTERKIT/font-awesome-css'
+  - 'STARTERKIT/global-css'
+  - 'STARTERKIT/global-JS'
+  - 'core/normalize'
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
